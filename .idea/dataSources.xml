@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="USDZ.db" uuid="9d15ad7b-ba17-447d-bf25-2d2749a9543e">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\Алексей\Desktop\УСДЗ\USDZ_flask\src\database\USDZ.db</jdbc-url>
+    </data-source>
+  </component>
+</project>
