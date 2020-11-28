@@ -18,7 +18,7 @@ class SqliteDB:
         return self._connection
 
     def _connect(self):
-        connection_string = self._app.config['DB_CONNECTION']
+        connection_string = self._app.config['USDZ.db']
         self._connection = sqlite3.connect(
             connection_string,
             detect_types=sqlite3.PARSE_DECLTYPES | sqlite3.PARSE_COLNAMES,
