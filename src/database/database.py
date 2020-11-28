@@ -25,7 +25,7 @@ class SqliteDB:
         )
         self._connection.row_factory = sqlite3.Row
 
-    def close_db(self, exception):
+    def close_db(self):
         if self._connection is not None:
             self._connection.close()
             self._connection = None
